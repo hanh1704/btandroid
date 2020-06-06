@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">time</string>
+    <string name="sophieu">số phiếu mượn</string>
+    <string name="ngaymuon">ngày mượn</string>
+    <string name="ghichu">ghi chú</string>
+    <string name="docgia">độc giả</string>
+    <string name="sach">tên sách</string>
+    <string name="them">thêm</string>
+    <string name="sua">sửa</string>
+    <string name="xoa">xóa</string>
+    <string name="thoat">thoát</string>
+
+</resources>

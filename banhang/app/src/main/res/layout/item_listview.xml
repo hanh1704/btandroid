@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:background="#CCF0F4"
+        android:id="@+id/imageviewsach"
+        android:layout_width="100dp"
+        android:layout_height="140dp"
+        android:src="@drawable/sanpham"
+        ></ImageView>
+    <TextView
+        android:id="@+id/titleTen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ngày đặt: "
+        android:textSize="20sp"
+        android:layout_toRightOf="@id/imageviewsach">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/ngaydat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="26dp"
+        android:layout_toRightOf="@id/titleTen"
+        android:text="Ngày đặt"
+        android:textSize="20sp">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/titleSoluong"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/titleTen"
+        android:layout_marginLeft="2dp"
+        android:layout_marginTop="2dp"
+        android:layout_toRightOf="@id/imageviewsach"
+        android:text="Số lượng: "
+        android:textSize="20sp">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/soluong"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ngaydat"
+        android:layout_marginLeft="22dp"
+        android:layout_marginTop="2dp"
+        android:layout_toRightOf="@id/titleSoluong"
+        android:text="Số lượng"
+        android:textSize="20sp">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/titlesanpham"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/titleSoluong"
+        android:layout_marginLeft="2dp"
+        android:layout_marginTop="2dp"
+        android:layout_toRightOf="@id/imageviewsach"
+        android:text="Sản phẩm: "
+        android:textSize="20sp">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/sanpham"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/soluong"
+        android:layout_marginLeft="12dp"
+        android:layout_marginTop="2dp"
+        android:layout_toRightOf="@id/titlesanpham"
+        android:text="Đơn vị"
+        android:textSize="20sp">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/titleKH"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/titlesanpham"
+        android:layout_marginLeft="2dp"
+        android:layout_marginTop="2dp"
+        android:layout_toRightOf="@id/imageviewsach"
+        android:text="Tên KH: "
+        android:textSize="20sp">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/tenKH"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/sanpham"
+        android:layout_marginLeft="18dp"
+        android:layout_marginTop="3dp"
+        android:layout_toRightOf="@id/titlesanpham"
+        android:text="Tên Khách hàng"
+        android:textSize="20sp">
+
+    </TextView>
+
+
+</RelativeLayout>

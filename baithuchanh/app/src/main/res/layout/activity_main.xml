@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/edita"
+        android:id="@+id/a"
+        android:text="a="/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edita"
+        android:layout_toRightOf="@id/a"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/b"
+        android:layout_alignBaseline="@+id/editb"
+        android:layout_below="@+id/edita"
+        android:text="b="/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editb"
+        android:layout_alignLeft="@+id/edita"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/edita"
+        android:layout_marginTop="22dp"
+        android:ems="5"/>
+
+    <Button
+    android:id="@+id/buttonCong"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="+"
+    android:layout_below="@+id/editb"
+    android:layout_marginTop="100dp"
+        android:ems="5"/>
+    <Button
+        android:id="@+id/buttonTru"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="-"
+        android:layout_toRightOf="@id/buttonCong"
+        android:layout_below="@+id/editb"
+        android:layout_marginTop="100dp"/>
+
+    <Button
+        android:id="@+id/buttonNhan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="*"
+        android:layout_toRightOf="@id/buttonTru"
+        android:layout_below="@+id/editb"
+        android:layout_marginTop="100dp"/>
+
+
+    <Button
+        android:id="@+id/buttonChia"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editb"
+        android:layout_marginTop="100dp"
+        android:layout_toRightOf="@id/buttonNhan"
+        android:text="/"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/result"
+        android:layout_alignBaseline="@+id/resultedit"
+        android:layout_below="@+id/buttonCong"
+        android:text="result"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/resultedit"
+        android:layout_alignLeft="@+id/edita"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/edita"
+        android:layout_marginTop="300dp"
+        android:ems="10"/>
+
+</RelativeLayout>

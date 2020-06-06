@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+ android:orientation="horizontal">
+    <ImageView
+        android:id="@+id/image1"
+        android:src="@drawable/download"
+        android:layout_width="100dp"
+        android:layout_height="100dp"></ImageView>
+    <TextView
+        android:id="@+id/textview1"
+        android:text="hanh"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"></TextView>
+
+</LinearLayout>

@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+
+        android:id="@+id/imageviewsach"
+        android:layout_width="100dp"
+        android:layout_height="140dp"
+        android:layout_marginLeft="5dp"
+        android:src="@drawable/sanpham"></ImageView>
+
+    <TextView
+        android:id="@+id/titleTen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="35dp"
+        android:layout_toRightOf="@id/imageviewsach"
+        android:text="Mã SP: "
+        android:textSize="20sp"
+        android:textStyle="bold">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/masptv"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_toRightOf="@id/titleTen"
+        android:text="Mã"
+        android:textSize="20sp">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/titleTenn"
+        android:layout_marginLeft="35dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/titleTen"
+
+        android:layout_marginTop="2dp"
+        android:layout_toRightOf="@id/imageviewsach"
+        android:text="Tên SP: "
+        android:textSize="20sp"
+        android:textStyle="bold">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/tensptv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/masptv"
+        android:layout_marginLeft="22dp"
+        android:layout_marginTop="2dp"
+        android:layout_toRightOf="@id/titleTenn"
+        android:text="Tên sản phẩm"
+        android:textSize="20sp">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/titledovi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/titleTenn"
+        android:layout_marginLeft="35dp"
+        android:layout_marginTop="2dp"
+        android:layout_toRightOf="@id/imageviewsach"
+        android:text="Đơn vị: "
+        android:textSize="20sp"
+        android:textStyle="bold">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/dovitv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tensptv"
+        android:layout_marginLeft="31dp"
+        android:layout_marginTop="2dp"
+        android:layout_toRightOf="@id/titledovi"
+        android:text="Đơn vị"
+        android:textSize="20sp">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/titlegia"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/titledovi"
+        android:layout_marginLeft="35dp"
+        android:layout_marginTop="2dp"
+        android:layout_toRightOf="@id/imageviewsach"
+        android:text="Giá: "
+        android:textSize="20sp"
+        android:textStyle="bold">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/gia"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/dovitv"
+        android:layout_marginLeft="58dp"
+        android:layout_marginTop="1dp"
+        android:layout_toRightOf="@id/titlegia"
+        android:text="Giá"
+        android:textSize="20sp">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/titlesoluong"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/titlegia"
+        android:layout_marginLeft="35dp"
+        android:layout_marginTop="2dp"
+        android:layout_toRightOf="@id/imageviewsach"
+        android:text="Số lượng: "
+        android:textSize="20sp"
+        android:textStyle="bold">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/soluongtv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/gia"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="3dp"
+        android:layout_toRightOf="@id/titlesoluong"
+        android:text="Số lượng"
+        android:textSize="20sp"></TextView>
+
+
+</RelativeLayout>

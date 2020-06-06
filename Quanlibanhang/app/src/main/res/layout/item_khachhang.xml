@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/imageviewkh"
+        android:layout_width="100dp"
+        android:layout_height="144dp"
+        android:src="@drawable/info"
+        ></ImageView>
+
+    <TextView
+        android:id="@+id/makhet"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="28dp"
+        android:layout_toRightOf="@id/titlemaKH"
+
+        android:text="Mã khách hàng:"
+        android:textSize="20sp"></TextView>
+
+    <TextView
+        android:id="@+id/tenkhet"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/makhet"
+        android:layout_marginLeft="17dp"
+        android:layout_marginTop="3dp"
+        android:layout_toRightOf="@id/titleTenKH"
+        android:text="Tên Khách hàng:"
+        android:textSize="20sp">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/diachiet"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/titlediachi"
+        android:layout_below="@id/tenkhet"
+        android:layout_marginLeft="22dp"
+        android:layout_marginTop="2dp"
+        android:textSize="20sp"
+        android:text="Địa chỉ:"
+        ></TextView>
+
+    <TextView
+        android:id="@+id/sdtet"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/diachiet"
+        android:layout_marginLeft="51dp"
+        android:layout_marginTop="0dp"
+        android:layout_toRightOf="@id/titlesdt"
+        android:text="Số điện thoại: "
+        android:textSize="20sp"></TextView>
+
+    <TextView
+        android:id="@+id/titlemaKH"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@id/imageviewkh"
+        android:text="Mã KH: "
+        android:textSize="20sp"
+        android:textStyle="bold">
+
+    </TextView>
+    <TextView
+        android:id="@+id/titleTenKH"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/titlemaKH"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="2dp"
+        android:layout_toRightOf="@id/imageviewkh"
+        android:text="Tên KH: "
+        android:textSize="20sp"
+        android:textStyle="bold">
+
+    </TextView>
+    <TextView
+        android:id="@+id/titlediachi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/titleTenKH"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="2dp"
+        android:layout_toRightOf="@id/imageviewkh"
+        android:text="Địa chỉ: "
+        android:textSize="20sp"
+        android:textStyle="bold">
+
+    </TextView>
+    <TextView
+        android:id="@+id/titlesdt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/titlediachi"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="2dp"
+        android:layout_toRightOf="@id/imageviewkh"
+        android:text="SĐT "
+        android:textSize="20sp"
+        android:textStyle="bold">
+
+    </TextView>
+
+
+
+</RelativeLayout>

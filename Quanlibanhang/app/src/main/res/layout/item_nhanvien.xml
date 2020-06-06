@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/imageviewnv"
+        android:layout_width="100dp"
+        android:layout_height="175dp"
+        android:src="@drawable/info"></ImageView>
+
+    <TextView
+        android:id="@+id/manvet"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="-3dp"
+        android:layout_toRightOf="@id/titlemanv"
+
+        android:text="User:"
+        android:textSize="20sp"></TextView>
+
+    <TextView
+        android:id="@+id/passwordet"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/manvet"
+        android:layout_marginLeft="-4dp"
+        android:layout_marginTop="4dp"
+        android:layout_toRightOf="@id/titlepass"
+        android:text="pass:"
+        android:textSize="20sp">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/tennv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/titlediachi"
+        android:layout_below="@id/passwordet"
+        android:layout_marginLeft="22dp"
+        android:layout_marginTop="2dp"
+        android:textSize="20sp"
+        android:text="Tên:"
+        ></TextView>
+
+    <TextView
+        android:id="@+id/sdtnvet"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tennv"
+        android:layout_marginLeft="51dp"
+        android:layout_marginTop="0dp"
+        android:layout_toRightOf="@id/titlesdt"
+        android:text="Số điện thoại: "
+        android:textSize="20sp"></TextView>
+
+    <TextView
+        android:id="@+id/diachinvet"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/sdtnvet"
+        android:layout_marginLeft="22dp"
+        android:layout_marginTop="1dp"
+        android:layout_toRightOf="@id/titlediachi"
+        android:text="Địa chỉ: "
+        android:textSize="20sp">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/chucvuet"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/diachinvet"
+        android:layout_marginLeft="9dp"
+        android:layout_marginTop="4dp"
+        android:layout_toRightOf="@id/titlechuvu"
+        android:text="chức vụ "
+        android:textSize="20sp"></TextView>
+
+    <TextView
+        android:id="@+id/titlemanv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@id/imageviewnv"
+        android:text="Username: "
+        android:textSize="20sp"
+        android:textStyle="bold">
+
+    </TextView>
+    <TextView
+        android:id="@+id/titlepass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/titlemanv"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="2dp"
+        android:layout_toRightOf="@id/imageviewnv"
+        android:text="Password: "
+        android:textSize="20sp"
+        android:textStyle="bold">
+
+    </TextView>
+    <TextView
+        android:id="@+id/titletennv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/titlepass"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="2dp"
+        android:layout_toRightOf="@id/imageviewnv"
+        android:text="Tên NV: "
+        android:textSize="20sp"
+        android:textStyle="bold">
+
+    </TextView>
+    <TextView
+        android:id="@+id/titlesdt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/titletennv"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="2dp"
+        android:layout_toRightOf="@id/imageviewnv"
+        android:text="SĐT "
+        android:textSize="20sp"
+        android:textStyle="bold">
+
+    </TextView>
+    <TextView
+        android:id="@+id/titlediachi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/titlesdt"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="2dp"
+        android:layout_toRightOf="@id/imageviewnv"
+        android:text="Địa chỉ: "
+        android:textSize="20sp"
+        android:textStyle="bold">
+
+    </TextView>
+    <TextView
+        android:id="@+id/titlechuvu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/titlediachi"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="2dp"
+        android:layout_toRightOf="@id/imageviewnv"
+        android:text="Chức vụ: "
+        android:textSize="20sp"
+        android:textStyle="bold">
+
+    </TextView>
+
+
+
+</RelativeLayout>

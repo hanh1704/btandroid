@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/imageviewhd"
+        android:layout_width="100dp"
+        android:layout_height="175dp"
+        android:src="@drawable/bill"></ImageView>
+
+    <TextView
+        android:id="@+id/mahdet"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_marginLeft="49dp"
+        android:layout_toRightOf="@id/titlemaHD"
+        android:text="Mã hóa đơn"
+        android:textSize="20sp"></TextView>
+
+    <TextView
+        android:id="@+id/ngaylap"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/mahdet"
+        android:layout_marginLeft="28dp"
+        android:layout_toRightOf="@id/titleNgaylap"
+        android:text="Ngày lập"
+        android:textSize="20sp"></TextView>
+
+    <TextView
+        android:id="@+id/maKh_hd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ngaylap"
+        android:layout_marginLeft="53dp"
+        android:layout_marginTop="2dp"
+        android:layout_toRightOf="@id/titleMaKH"
+        android:text="Mã khách hàng"
+        android:textSize="20sp"></TextView>
+
+    <TextView
+        android:id="@+id/tenspHDtv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/maKh_hd"
+        android:layout_marginLeft="49dp"
+        android:layout_marginTop="5dp"
+        android:layout_toRightOf="@id/titletensp"
+        android:text="Tên SP:"
+        android:textSize="20sp"></TextView>
+
+    <TextView
+        android:id="@+id/soluongHDtv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tenspHDtv"
+        android:layout_marginLeft="63dp"
+        android:layout_marginTop="1dp"
+        android:layout_toRightOf="@id/titlesoluong"
+        android:text="Số lượng:"
+        android:textSize="20sp"></TextView>
+
+    <TextView
+        android:id="@+id/thanhtienHDtv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/soluongHDtv"
+        android:layout_marginLeft="24dp"
+        android:layout_marginTop="4dp"
+        android:layout_toRightOf="@id/titlethanhtien"
+        android:text="Thành tiền:"
+        android:textSize="20sp"></TextView>
+
+    <TextView
+        android:layout_marginLeft="10dp"
+        android:id="@+id/titlemaHD"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/imageviewhd"
+        android:text="Mã HD: "
+        android:textSize="20sp"
+        android:textStyle="bold">
+
+    </TextView>
+    <TextView
+        android:layout_marginLeft="10dp"
+        android:id="@+id/titleNgaylap"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/titlemaHD"
+
+        android:layout_marginTop="2dp"
+        android:layout_toRightOf="@id/imageviewhd"
+        android:text="Ngày lập: "
+        android:textSize="20sp"
+        android:textStyle="bold">
+
+    </TextView>
+    <TextView
+        android:id="@+id/titleMaKH"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/titleNgaylap"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="2dp"
+        android:layout_toRightOf="@id/imageviewhd"
+        android:text="Mã KH:"
+        android:textSize="20sp"
+        android:textStyle="bold">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/titletensp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/titleMaKH"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="2dp"
+        android:layout_toRightOf="@id/imageviewhd"
+        android:text="Tên SP:"
+        android:textSize="20sp"
+        android:textStyle="bold">
+
+    </TextView>
+    <TextView
+        android:id="@+id/titlesoluong"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/titletensp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="2dp"
+        android:layout_toRightOf="@id/imageviewhd"
+        android:text="SL bán"
+        android:textSize="20sp"
+        android:textStyle="bold">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/titlethanhtien"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/titlesoluong"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="6dp"
+        android:layout_toRightOf="@id/imageviewhd"
+        android:text="Thành tiền"
+        android:textSize="20sp"
+        android:textStyle="bold">
+
+    </TextView>
+
+
+</RelativeLayout>

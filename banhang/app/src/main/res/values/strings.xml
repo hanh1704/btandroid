@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Quan ly dat hang</string>
+    <string name="tvtieude">Quản lý đặt hàng sản phẩm</string>
+    <string name="edtngaydat">Ngày đặt hàng</string>
+    <string name="edtsoluong">Số lượng</string>
+    <string name="edtsobai">Số bài</string>
+    <string name="tvgiaovien">Giáo viên</string>
+    <string name="tvmonhoc">Môn học</string>
+    <string name="spgiaovien"> </string>
+    <string name="spmonhoc"> </string>
+    <string name="btnthem">Thêm</string>
+    <string name="btnsua">Sửa</string>
+    <string name="btnxoa">Xóa</string>
+    <string name="btnthoat">Thoát</string>
+    <string name="btnhienthi">Hiển thị</string>
+    <string name="btndanhsach">Danh sách</string>
+    <string name="listview"> </string>
+</resources>
